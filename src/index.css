@@ -5,9 +5,30 @@ body {
   background-color: #222326;
 }
 
+@font-face {
+  font-family: gotham pro;
+  src: url(./fonts/GothamPro-Black.ttf);
+}
+
 .greentxt{
   color: #19E68C;
 }
 .holder{
   background-color: black;
+}
+
+.brand{
+  font-size: 50px;
+}
+
+.sticky-top{
+  font-family: gotham pro;
+  text-shadow: -10px 10px 5px black;
+  background-color: #222326c9;
+}
+
+@media screen and (max-width:600px){
+  .brand{
+    font-size: 30px;
+  }
 }
